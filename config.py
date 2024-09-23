@@ -20,7 +20,7 @@ SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "Ur_support07"
 )  
 
-MONGO_URL = os.environ.get("MONGO_URL")
+MONGO_URL = os.environ.get("MONGO_URL","mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority")
 
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001992970818"))
 
