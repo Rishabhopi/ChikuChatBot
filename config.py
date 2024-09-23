@@ -12,17 +12,17 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6764358144").split())
+    map(int, getenv("OWNER_ID", "5738579437").split())
 ) 
 
 #Fill Only Username Without @
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "MuraliBotz"
+    "SUPPORT_GROUP", "Ur_support07"
 )  
 
 MONGO_URL = os.environ.get("MONGO_URL")
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002242562595"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001992970818"))
 
 # set True if you want yo set bot commands automatically 
 SETCMD = getenv("SETCMD", "True")
